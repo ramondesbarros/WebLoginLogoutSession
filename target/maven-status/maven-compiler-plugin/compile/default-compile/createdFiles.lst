@@ -1,0 +1,6 @@
+br/com/loginone/integration/UserRepository.class
+br/com/loginone/domain/User.class
+br/com/loginone/web/LoginController.class
+br/com/loginone/service/UserService.class
+br/com/loginone/Application.class
+br/com/loginone/service/impl/UserServiceImpl.class
