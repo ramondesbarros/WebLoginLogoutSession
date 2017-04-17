@@ -1,4 +1,5 @@
 /home/ramonbarros/projects/java/oi/LoginOne/src/main/java/br/com/loginone/integration/UserRepository.java
+/home/ramonbarros/projects/java/oi/LoginOne/src/main/java/br/com/loginone/service/interceptor/AutorizationInterceptor.java
 /home/ramonbarros/projects/java/oi/LoginOne/src/main/java/br/com/loginone/Application.java
 /home/ramonbarros/projects/java/oi/LoginOne/src/main/java/br/com/loginone/service/UserService.java
 /home/ramonbarros/projects/java/oi/LoginOne/src/main/java/br/com/loginone/web/LoginController.java
