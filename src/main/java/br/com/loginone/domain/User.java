@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "user")
@@ -20,9 +22,12 @@ public class User implements Serializable {
     @Column(name="user_id")
     private Long idUser;
     
+    @NotNull
     @Column(name="user_login")
     private String loginUser;
     
+    @NotNull
+    @Size(min=6, max=10)
     @Column(name="user_password")
     private String passwordUser;
 

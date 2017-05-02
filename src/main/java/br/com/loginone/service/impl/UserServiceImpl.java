@@ -19,4 +19,10 @@ public class UserServiceImpl implements UserService {
         return userRepository.getUserByLoginAndPassword(login, password);
     }
 
+    @Override
+    public User saveUser(User user) {
+        
+        return userRepository.save(user);
+    }
+
 }
